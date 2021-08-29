@@ -1,0 +1,97 @@
+{
+    "templateId": "pepperfry_1",
+    "components": [
+      {
+        "title": "Ambient Light",
+        "type": "AMBIENT_LIGHT",
+        "cancellable": false,
+        "attributes": {
+          "intensity": 0.5,
+          "color": "0xffffff"
+        }
+      },
+      {
+        "title": "Directional Lights",
+        "type": "DIRECTIONAL_LIGHTS",
+        "cancellable": false,
+        "attributes": [
+          {
+            "position": [0, 0, 0],
+            "color": "0xffffff",
+            "intensity": 1
+          },
+          {}
+        ]
+      },
+      {
+        "title": "pepperfry_button_selector",
+        "type": "SUBMENU_BUTTON_SELECTOR",
+        "attributes": [
+          {
+            "type": "ACTIONABLE",
+            "name": "dimensionIcon",
+            "icon": "https://d179blwxwzk8ou.cloudfront.net/common/Pepperfry_Icons_Dimensions-On.png",
+            "iconSelected": "https://d179blwxwzk8ou.cloudfront.net/common/Pepperfry_Icons_Dimensions-Off.png",
+            "onClick": [
+              {
+                "type": "opacity",
+                "materialName": "Arrows",
+                "value": {
+                  "opacity": 1,
+                  "visible": true
+                }
+              },
+              {
+                "type": "opacity",
+                "materialName": "Numbers",
+                "value": {
+                  "opacity": 1,
+                  "visible": true
+                }
+              }
+            ],
+            "onUnclick": [
+              {
+                "type": "opacity",
+                "materialName": "Arrows",
+                "value": {
+                  "opacity": 0,
+                  "visible": false
+                }
+              },
+              {
+                "type": "opacity",
+                "materialName": "Numbers",
+                "value": {
+                  "opacity": 0,
+                  "visible": false
+                }
+              }
+            ]
+          },
+          {
+            "type": "NON_ACTIONABLE",
+            "icon": "https://d179blwxwzk8ou.cloudfront.net/common/Pepperfry_Icons_Colour.png",
+            "iconSelected": "https://d179blwxwzk8ou.cloudfront.net/common/Pepperfry_Icons_Colour-2.png",
+            "menu": [
+              {
+                "type": "ACTIONABLE",
+                "name": "Provential",
+                "icon": "https://d179blwxwzk8ou.cloudfront.net/pepperfrydata/NEW_ICONS/Provential Teak.png",
+                "iconSelected": "https://d179blwxwzk8ou.cloudfront.net/pepperfrydata/NEW_ICONS/Provential Teak Selected.png",
+                "onClick": [
+                  {
+                    "type": "materials",
+                    "materialName": "Ceramic",
+                    "value": {
+                      "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1629966/Provential/a0/3D_Actions_Selected/textureSource/FM1629966_Diffuese_provential_Teak.jpg"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

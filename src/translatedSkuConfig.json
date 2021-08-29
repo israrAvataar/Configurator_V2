@@ -1,0 +1,299 @@
+{
+  "skuId": "1599490",
+  "models": {
+    "default": {
+      "path": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/scene.glb",
+      "ar": true,
+      "config": { "scale": 2, "position": [0, 0, 0], "rotation": [0, 0, 0] },
+      "materials": {
+        "Numbers": {
+          "On": { "opacity": 1, "visible": true },
+          "Off": { "opacity": 0, "visible": false }
+        },
+        "Arrows": {
+          "On": { "opacity": 1, "visible": true },
+          "Off": { "opacity": 0, "visible": false }
+        },
+        "FN1599490lambert3": {
+          "Sandy": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Sandy/a0/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Beige": {
+            "aoMap": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a3/3D_Actions_Selected/AOMapSource/Ambient_Occlusion_Map_from_Mesh_FN1599490_lambert2.png",
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a3/3D_Actions_Selected/textureSource/Fabric_-_Copy.jpg",
+            "normalMap": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a3/3D_Actions_Selected/normalMapSource/Elena_sketch_fab_test_2_FN1599490_lambert3_Normal.png",
+            "metallicMap": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a3/3D_Actions_Selected/metallicMapSource/Elena_sketch_fab_test_2_FN1599490_lambert3_Metalness.png",
+            "roughnessMap": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a3/3D_Actions_Selected/roughnessMapSource/Elena_sketch_fab_test_2_FN1599490_lambert3_Roughness.png"
+          },
+          "DenimBlue": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/DenimBlue/a0/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Blue": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Blue/a0/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Charcoal": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Charcoal/a0/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "ChestnutBrown": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/ChestnutBrown/a0/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Grey": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Grey/a0/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Red": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Red/a0/3D_Actions_Selected/textureSource/Fabric.jpg"
+          }
+        },
+        "FN1599490lambert2": {
+          "Sandy": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Sandy/a1/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Beige": {
+            "aoMap": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a2/3D_Actions_Selected/AOMapSource/Ambient_Occlusion_Map_from_Mesh_FN1599490_lambert3.png",
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a2/3D_Actions_Selected/textureSource/Fabric_-_Copy.jpg",
+            "normalMap": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a2/3D_Actions_Selected/normalMapSource/Elena_sketch_fab_test_2_FN1599490_lambert2_Normal.png",
+            "metallicMap": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a2/3D_Actions_Selected/metallicMapSource/Elena_sketch_fab_test_2_FN1599490_lambert2_Metalness.png",
+            "roughnessMap": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Beige/a2/3D_Actions_Selected/roughnessMapSource/Elena_sketch_fab_test_2_FN1599490_lambert2_Roughness.png"
+          },
+          "DenimBlue": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/DenimBlue/a1/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Blue": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Blue/a1/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Charcoal": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Charcoal/a1/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "ChestnutBrown": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/ChestnutBrown/a1/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Grey": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Grey/a1/3D_Actions_Selected/textureSource/Fabric.jpg"
+          },
+          "Red": {
+            "map": "https://d77dh4faztz32.cloudfront.net/pepperfry/skuAssets/1599490/Red/a1/3D_Actions_Selected/textureSource/Fabric.jpg"
+          }
+        }
+      }
+    }
+  },
+  "renderer": { "antialias": true, "colorManagement": true },
+  "ambientLight": { "color": "#FFF", "intensity": 1 },
+  "directionalLights": [
+    {
+      "color": "#FFF",
+      "intensity": 0.8,
+      "position": [1, 4.3, 2.5],
+      "castShadow": true,
+      "shadow-mapSize-height": 2048,
+      "shadow-mapSize-width": 2048,
+      "shadow-camera-top": 10
+    }
+  ],
+  "camera": { "position": [0, 8, 8], "far": 3000, "near": 0.1, "fov": 45 },
+  "orbitControls": {},
+  "cameraControls": {
+    "minDistance": 6,
+    "maxDistance": 20,
+    "dampingFactor": 0.08,
+    "dollySpeed": 0.4,
+    "truckSpeed": 0
+  },
+  "HDRIurl": "assets/small_cathedral_256.hdr",
+  "uiConfig": {
+    "name": "firstLayer",
+    "menu": [
+      {
+        "name": "dimensionIcon",
+        "menu": [],
+        "icon": "https://d179blwxwzk8ou.cloudfront.net/common/Pepperfry_Icons_Dimensions-On.png",
+        "iconSelected": "https://d179blwxwzk8ou.cloudfront.net/common/Pepperfry_Icons_Dimensions-Off.png",
+        "onClick": [
+          {
+            "type": "materials",
+            "config": { "default": { "Numbers": "On", "Arrows": "On" } }
+          }
+        ],
+        "onUnClick": [
+          {
+            "type": "materials",
+            "config": { "default": { "Numbers": "Off", "Arrows": "Off" } }
+          }
+        ],
+        "default": 0
+      },
+      {
+        "name": "colorChangeIcon",
+        "menu": [
+          {
+            "name": "Sandy",
+            "menu": [],
+            "icon": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/sandy/Sandy.png",
+            "iconSelected": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/sandy/Sandy_Selected.png",
+            "onClick": [
+              {
+                "type": "materials",
+                "config": {
+                  "default": {
+                    "FN1599490lambert3": "Sandy",
+                    "FN1599490lambert2": "Sandy"
+                  }
+                }
+              }
+            ],
+            "onUnClick": [],
+            "default": 0
+          },
+          {
+            "name": "Beige",
+            "menu": [],
+            "icon": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/beige/Beige.png",
+            "iconSelected": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/beige/Beige_Selected.png",
+            "onClick": [
+              {
+                "type": "materials",
+                "config": {
+                  "default": {
+                    "FN1599490lambert2": "Beige",
+                    "FN1599490lambert3": "Beige"
+                  }
+                }
+              }
+            ],
+            "onUnClick": [],
+            "default": 0
+          },
+          {
+            "name": "DenimBlue",
+            "menu": [],
+            "icon": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/denimblue/Denim+Blue.png",
+            "iconSelected": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/denimblue/Denim+Blue_Selected.png",
+            "onClick": [
+              {
+                "type": "materials",
+                "config": {
+                  "default": {
+                    "FN1599490lambert3": "DenimBlue",
+                    "FN1599490lambert2": "DenimBlue"
+                  }
+                }
+              }
+            ],
+            "onUnClick": [],
+            "default": 0
+          },
+          {
+            "name": "Blue",
+            "menu": [],
+            "icon": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/blue/Blue.png",
+            "iconSelected": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/blue/Blue_Selected.png",
+            "onClick": [
+              {
+                "type": "materials",
+                "config": {
+                  "default": {
+                    "FN1599490lambert3": "Blue",
+                    "FN1599490lambert2": "Blue"
+                  }
+                }
+              }
+            ],
+            "onUnClick": [],
+            "default": 0
+          },
+          {
+            "name": "Charcoal",
+            "menu": [],
+            "icon": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/charcoal/Charcoal.png",
+            "iconSelected": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/charcoal/Charcoal_Selected.png",
+            "onClick": [
+              {
+                "type": "materials",
+                "config": {
+                  "default": {
+                    "FN1599490lambert3": "Charcoal",
+                    "FN1599490lambert2": "Charcoal"
+                  }
+                }
+              }
+            ],
+            "onUnClick": [],
+            "default": 0
+          },
+          {
+            "name": "ChestnutBrown",
+            "menu": [],
+            "icon": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/chestnutbrown/Chestnut+Brown.png",
+            "iconSelected": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/chestnutbrown/Chestnut+Brown_Selected.png",
+            "onClick": [
+              {
+                "type": "materials",
+                "config": {
+                  "default": {
+                    "FN1599490lambert3": "ChestnutBrown",
+                    "FN1599490lambert2": "ChestnutBrown"
+                  }
+                }
+              }
+            ],
+            "onUnClick": [],
+            "default": 0
+          },
+          {
+            "name": "Grey",
+            "menu": [],
+            "icon": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/grey/Grey.png",
+            "iconSelected": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/grey/Grey_Selected.png",
+            "onClick": [
+              {
+                "type": "materials",
+                "config": {
+                  "default": {
+                    "FN1599490lambert3": "Grey",
+                    "FN1599490lambert2": "Grey"
+                  }
+                }
+              }
+            ],
+            "onUnClick": [],
+            "default": 0
+          },
+          {
+            "name": "Red",
+            "menu": [],
+            "icon": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/red/Red.png",
+            "iconSelected": "https://royalenfield.s3.ap-south-1.amazonaws.com/pepperfry/coloricons/red/Red_Selected.png",
+            "onClick": [
+              {
+                "type": "materials",
+                "config": {
+                  "default": {
+                    "FN1599490lambert3": "Red",
+                    "FN1599490lambert2": "Red"
+                  }
+                }
+              }
+            ],
+            "onUnClick": [],
+            "default": 0
+          }
+        ],
+        "icon": "https://d179blwxwzk8ou.cloudfront.net/common/Pepperfry_Icons_Colour.png",
+        "iconSelected": "https://d179blwxwzk8ou.cloudfront.net/common/Pepperfry_Icons_Colour-2.png",
+        "onClick": [],
+        "onUnClick": [],
+        "default": 0
+      }
+    ],
+    "default": 1,
+    "isDimensionOn": true,
+    "defaultColor": ["Beige"]
+  },
+  "onLoad": [
+    {
+      "type": "materials",
+      "config": { "default": { "Numbers": "Off", "Arrows": "Off" } }
+    }
+  ],
+  "positionTexture": "https://web2.avataar.me/common/ar_floor_placement_grid.png"
+}

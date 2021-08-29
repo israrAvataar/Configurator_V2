@@ -1,0 +1,14 @@
+{
+  "window.zoomLevel": 1,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    // disable prettier
+    "editor.defaultFormatter": null
+  },
+  "editor.formatOnSave": true,
+  "settingsSync.ignoredSettings": []
+}
