@@ -1,15 +1,42 @@
-import create from 'zustand'
-import '../Template.json'
-import '../oldSkuConfig.json'
+import create from "zustand";
 
+const data = require("../translatedSkuConfig.json");
 
-const data = require('../oldSkuConfig.json')
-
-console.log(data)
+console.log(data);
 
 const useStore = create((set) => ({
-    config: {data}
-}))
+  config: data,
+  enabledDisabled: {
+    ambientLight: true,
+    directionalLight: true,
+  },
+  changeIntensity: (intensityInput) => {
+    set((state) => {
+      return {
+        ...state,
+        config: {
+          ...state.config,
+          ambientLight: {
+            ...state.config.ambientLight,
+            intensity: intensityInput,
+          },
+        },
+      };
+    });
+  },
+  changeEnabledDisabled: (componenetName) => {
+    if (componenetName === "ambientLight") {
+      set((state) => {
+        return {
+          ...state,
+          enabledDisabled: {
+            ...state.enabledDisabled,
+            ambientLight: !state.enabledDisabled.ambientLight,
+          },
+        };
+      });
+    }
+  },
+}));
 
-export default useStore
-
+export default useStore;
